@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="style.css" href="style.css">
+
+
+    <style>
+        .color {
+            background-color: black;
+        }
+
+        .title {
+            background: #ff0000;
+            font-size: 75px;
+            border: wheat;
+            border-radius: 50px;
+            width: 425px;
+            border-left: 100px;
+
+        }
+
+        .button {
+            font-size: 50px;
+            width: 200px;
+            background: #f50000;
+
+        }
+
+
+        .buttone {
+            font-size: 50px;
+            width: 235  px;
+            background: #f50000;
+
+        }
+
+
+
+
+        .buttones {
+            font-size: 50px;
+            width: 220px;
+            background: #8d8d8d;
+
+        }
+
+
+
+        .get {
+            font-size: 50px;
+            background-color: #f50000;
+        }
+
+        .gets {
+            font-size: 30px;
+            background-color: #f50000;
+            width: 350px;
+            font-style: italic;
+        }
+
+        .div {
+            background-color: #f50000;
+            font-size: 25px;
+        }
+
+
+        .png {
+            width: 75px;
+            border-radius: 100px;
+            height: 75px;
+        }
+    </style>
+
+
+
+</head>
+
+<body class="color">
+
+
+    <center>
+        <h1 class="title">Hey Pool <img src="a.PNG"
+                alt=""
+                class="png"></h1>
+
+
+        <br><br><br><br><br>
+
+
+
+
+        <button id="likeButton"
+            class="button">
+            <a href="https://youtube/@love8ballpool683?si=UK7wC3E2ZVNinby"
+                target="_blank">Like</a>
+        </button>
+
+        <br><br><br><br><br>
+
+        <button class="buttone"
+            id="subscribeButton">
+            <a href="https://youtube/@love8ballpool683?si=UK7wC3E2ZVNinby">Subscribe</a>
+        </button>
+
+        <br><br><br><br><br>
+
+        <button class="buttones"
+            id="subscribesButton">
+
+            <a href="https://apkhome.io">Get Tool</a>
+        </button>
+
+        <br><br><br><br><br>
+
+
+
+
+        <br><br><br><br>
+
+
+        <span class="get">How To Get Tool </span>
+    </center>
+    <br><br>
+
+    <div id="step"
+        class="gets">Step 1 : Click >>Like<< </div>
+
+
+
+
+
+</body>
+<script>
+    const step = document.querySelector('#step')
+    const likeButton = document.querySelector('#likeButton')
+    likeButton.addEventListener('click', () => {
+        setTimeout(() => {
+            step.innerHTML = 'Step 2: Click >>Subscribe<<'
+
+
+
+
+        });
+
+
+    })
+
+    const subscribeButton = document.querySelector('#subscribeButton')
+    subscribeButton.addEventListener('click', () => {
+        setTimeout(() => {
+            step.innerHTML = 'Step 3: Click >>Get Tool<<  and serch aim tool hides'
+
+
+
+
+        });
+
+
+    })
+
+    const subscribesButton = document.querySelector('#subscribesButton')
+    subscribesButton.addEventListener('click', () => {
+        setTimeout(() => {
+            step.innerHTML = 'Thank You'
+
+
+
+
+        });
+
+
+    })
+
+
+
+
+</script>
+<br><br>
+
+
+</html>
